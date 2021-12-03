@@ -1,0 +1,28 @@
+/*
+Accept The Number From User & And Display Below Pattern .
+
+input :- 5
+ouput :- *  *  *  *  *
+// (\t) use for tab
+*/
+
+#include<stdio.h>
+  
+ void Display(int iNo)
+ {
+	 int iCnt=0;
+	 for(iCnt=0; iCnt<=iNo; iCnt++)
+	 {
+		 printf(" * ");
+	 } 
+ }
+  int main()
+  {
+	  int iValue=0;
+	  
+	  printf("Enter The Number :");
+	  scanf("%d",&iValue);
+	  
+	  Display(iValue);	
+	  return 0;
+  }
